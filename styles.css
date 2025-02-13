@@ -1,0 +1,46 @@
+body {
+    background: url('mystic-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.cards {
+    display: flex;
+    gap: 20px;
+}
+.card {
+    width: 180px;
+    height: 250px;
+    background: linear-gradient(145deg, #b30000, #ff0000);
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.8);
+    text-align: center;
+    padding: 10px;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.question-box {
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid white;
+    background-color: rgba(255, 0, 0, 0.2);
+    border-radius: 5px;
+    max-width: 80%;
+}
